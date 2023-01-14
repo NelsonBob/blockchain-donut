@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+import Colors from './assets/Colors';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
@@ -21,5 +22,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
