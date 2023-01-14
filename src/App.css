@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
+.App-Body {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
